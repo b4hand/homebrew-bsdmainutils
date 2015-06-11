@@ -5,6 +5,13 @@ modern FreeBSD utilities.
 My primary motivation in getting this was to install the Debian
 version of `cal` which supports the `-3` flag.
 
+## Installation ##
+You can install this tap and package with the following commands:
+```sh
+brew tap b4hand/bsdmainutils
+brew install bsdmainutils
+```
+
 ## Known Bugs ##
 * The `write` command doesn't work properly. It appears to require
   priviledged access and even with the proper priviledges can't seem
